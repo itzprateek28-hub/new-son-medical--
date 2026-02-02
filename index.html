@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="New Son Medical Store - Complete healthcare solutions in Mirzapur. Allopathic, Ayurvedic & Veterinary medicines. 24x7 Emergency Service. Contact: +91 7705950290">
+    <meta name="keywords" content="medical store, pharmacy, medicines, Mirzapur, allopathic, ayurvedic, veterinary, healthcare">
+    <meta name="author" content="New Son Medical Store">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Mobile Optimization -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="theme-color" content="#06b6d4">
+    
+    <!-- WhatsApp & Social Media -->
+    <meta property="og:title" content="New Son Medical Store - Complete Healthcare Solutions">
+    <meta property="og:description" content="Your trusted medical store in Mirzapur. Allopathic, Ayurvedic & Veterinary medicines available. 24x7 Emergency Service.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/06b6d4/ffffff?text=New+Son+Medical+Store">
+    
+    <title>New Son Medical Store - Complete Healthcare Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <div class="whatsapp-style-logo">
+                    <div class="logo-circle">
+                        <div class="chat-bubble">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <div class="medical-dots">
+                            <span class="dot dot1"></span>
+                            <span class="dot dot2"></span>
+                            <span class="dot dot3"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo-text-whatsapp">
+                    <h1><span class="new-text">NEW</span><span class="son-text">SON</span></h1>
+                    <span class="medical-store-text">MEDICAL STORE</span>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Your Trusted Healthcare Partner</h2>
+                <p>Complete range of Allopathic, Ayurvedic & Veterinary medicines under one roof</p>
+                <div class="hero-features">
+                    <div class="feature">
+                        <i class="fas fa-pills"></i>
+                        <span>Allopathic Medicines</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-leaf"></i>
+                        <span>Ayurvedic Products</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-paw"></i>
+                        <span>Veterinary Care</span>
+                    </div>
+                </div>
+                <div class="cta-buttons">
+                    <button class="cta-button primary" onclick="showContactOptions()">Shop Now</button>
+                    <button class="cta-button secondary" onclick="openWhatsApp()">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-prescription-bottle-alt"></i>
+                    <h3>Prescription Medicines</h3>
+                    <p>Complete range of prescription drugs from leading pharmaceutical companies</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Health Consultation</h3>
+                    <p>Expert advice on medication usage and health-related queries</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-truck"></i>
+                    <h3>Home Delivery</h3>
+                    <p>Fast and reliable medicine delivery to your doorstep</p>
+                    <button class="service-contact-btn" onclick="openWhatsApp()">
+                        <i class="fab fa-whatsapp"></i> Order via WhatsApp
+                    </button>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>24/7 Emergency</h3>
+                    <p>Emergency medicine supply available round the clock</p>
+                    <button class="service-contact-btn" onclick="callEmergency()">
+                        <i class="fas fa-phone"></i> Emergency Call
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Medicine & Health Zone Section -->
+    <section class="medicine-health-zone">
+        <div class="container">
+            <h2>Our Medicine & Health Solutions</h2>
+            <div class="medicine-health-grid">
+                <div class="medicine-card">
+                    <div class="card-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Medicine</h3>
+                    <p>We stock over 1 lakh patented medicines from leading pharmaceutical companies including Mankind, Sun Pharma, Aristo, Glenmark, Abbott, IPCA, Cipla, Intas, Lupin, Macleods, GSK, Dr. Reddy, Torrent, Zydus, Himalaya, Sanofi, and many more trusted brands.</p>
+                    <div class="brand-list">
+                        <span class="brand">Mankind</span>
+                        <span class="brand">Sun Pharma</span>
+                        <span class="brand">Aristo</span>
+                        <span class="brand">Glenmark</span>
+                        <span class="brand">Abbott</span>
+                        <span class="brand">IPCA</span>
+                        <span class="brand">Cipla</span>
+                        <span class="brand">Intas</span>
+                        <span class="brand">Lupin</span>
+                        <span class="brand">Macleods</span>
+                        <span class="brand">GSK</span>
+                        <span class="brand">Dr. Reddy</span>
+                        <span class="brand">Torrent</span>
+                        <span class="brand">Zydus</span>
+                        <span class="brand">Himalaya</span>
+                        <span class="brand">Sanofi</span>
+                    </div>
+                </div>
+                
+                <div class="health-zone-card">
+                    <div class="card-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Health Zone</h3>
+                    <p>All those products are available to you in the Health Zone segment like - Ayurvedic products, Baby Care products, Women's & Men's Care products, Beauty Care products, etc.</p>
+                    <div class="health-categories">
+                        <div class="health-item">
+                            <i class="fas fa-leaf"></i>
+                            <span>Ayurvedic Products</span>
+                        </div>
+                        <div class="health-item">
+                            <i class="fas fa-baby"></i>
+                            <span>Baby Care</span>
+                        </div>
+                        <div class="health-item">
+                            <i class="fas fa-venus-mars"></i>
+                            <span>Women's & Men's Care</span>
+                        </div>
+                        <div class="health-item">
+                            <i class="fas fa-spa"></i>
+                            <span>Beauty Care</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="patanjali-card">
+                    <div class="card-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Patanjali Ayurvedic Products</h3>
+                    <p>Complete range of authentic Patanjali Ayurvedic medicines and wellness products for natural healing and healthy living.</p>
+                    <div class="patanjali-categories">
+                        <div class="patanjali-item">
+                            <i class="fas fa-seedling"></i>
+                            <span>Patanjali Chyawanprash</span>
+                        </div>
+                        <div class="patanjali-item">
+                            <i class="fas fa-pills"></i>
+                            <span>Divya Medicines</span>
+                        </div>
+                        <div class="patanjali-item">
+                            <i class="fas fa-cut"></i>
+                            <span>Ayurvedic Hair Care</span>
+                        </div>
+                        <div class="patanjali-item">
+                            <i class="fas fa-spa"></i>
+                            <span>Natural Skin Care</span>
+                        </div>
+                        <div class="patanjali-item">
+                            <i class="fas fa-heart"></i>
+                            <span>Wellness Products</span>
+                        </div>
+                        <div class="patanjali-item">
+                            <i class="fas fa-mortar-pestle"></i>
+                            <span>Herbal Supplements</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Product Categories</h2>
+            <div class="products-grid">
+                <!-- Allopathic Medicines -->
+                <div class="product-category">
+                    <div class="category-header">
+                        <i class="fas fa-pills"></i>
+                        <h3>Allopathic Medicines</h3>
+                    </div>
+                    <ul class="product-list">
+                        <li>Antibiotics & Anti-infectives</li>
+                        <li>Pain Relief & Anti-inflammatory</li>
+                        <li>Cardiovascular Medicines</li>
+                        <li>Diabetes Care Products</li>
+                        <li>Respiratory Medicines</li>
+                        <li>Gastrointestinal Drugs</li>
+                        <li>Neurological Medicines</li>
+                        <li>Vitamins & Supplements</li>
+                        <li>Skin Care Products</li>
+                        <li>Women's Health</li>
+                    </ul>
+                </div>
+
+                <!-- Ayurvedic Products -->
+                <div class="product-category">
+                    <div class="category-header">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Ayurvedic Products</h3>
+                    </div>
+                    <ul class="product-list">
+                        <li>Herbal Immunity Boosters</li>
+                        <li>Digestive Health Products</li>
+                        <li>Joint & Bone Care</li>
+                        <li>Respiratory Health</li>
+                        <li>Stress & Sleep Management</li>
+                        <li>Skin & Hair Care</li>
+                        <li>Liver Detox Products</li>
+                        <li>Ayurvedic Oils & Balms</li>
+                        <li>Traditional Churnas</li>
+                        <li>Herbal Teas & Tonics</li>
+                    </ul>
+                </div>
+
+                <!-- Veterinary Medicines -->
+                <div class="product-category">
+                    <div class="category-header">
+                        <i class="fas fa-paw"></i>
+                        <h3>Veterinary Medicines</h3>
+                    </div>
+                    <ul class="product-list">
+                        <li>Pet Antibiotics</li>
+                        <li>Vaccination Supplies</li>
+                        <li>Deworming Products</li>
+                        <li>Flea & Tick Control</li>
+                        <li>Nutritional Supplements</li>
+                        <li>Wound Care Products</li>
+                        <li>Digestive Health</li>
+                        <li>Joint Care for Pets</li>
+                        <li>Grooming Products</li>
+                        <li>Emergency First Aid</li>
+                    </ul>
+                </div>
+
+                <!-- Patanjali Ayurvedic Products -->
+                <div class="product-category patanjali-section">
+                    <div class="category-header">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Patanjali Ayurvedic Products</h3>
+                    </div>
+                    <ul class="product-list">
+                        <li>Patanjali Chyawanprash</li>
+                        <li>Divya Medicines</li>
+                        <li>Ayurvedic Hair Care</li>
+                        <li>Natural Skin Care</li>
+                        <li>Herbal Health Tonics</li>
+                        <li>Digestive Churnas</li>
+                        <li>Immunity Boosters</li>
+                        <li>Joint Pain Relief</li>
+                        <li>Respiratory Care</li>
+                        <li>Diabetes Care Products</li>
+                        <li>Heart Care Medicines</li>
+                        <li>Women's Health Products</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About New Son Medical Store</h2>
+                    <p>Established with a commitment to provide comprehensive healthcare solutions, New Son Medical Store has been serving the community of Mirzapur with dedication and trust. We are your one-stop destination for all medical needs.</p>
+                    
+                    <!-- Proprietor Section -->
+                    <div class="proprietor-section">
+                        <div class="proprietor-card">
+                            <div class="proprietor-info">
+                                <i class="fas fa-user-md"></i>
+                                <div>
+                                    <h4>Proprietor</h4>
+                                    <h3>प्रखर गुप्ता (Prakhar Gupta)</h3>
+                                    <p>Licensed Pharmacist & Healthcare Expert</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="features">
+                        <div class="feature-item">
+                            <i class="fas fa-certificate"></i>
+                            <div>
+                                <h4>Licensed & Certified</h4>
+                                <p>Fully licensed pharmacy with certified pharmacists</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <div>
+                                <h4>Quality Assured</h4>
+                                <p>All medicines sourced from authorized distributors</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h4>Expert Team</h4>
+                                <p>Experienced pharmacists and healthcare advisors</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>5000+</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>24/7</h3>
+                        <p>Service Available</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>Genuine Products</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Our Store Gallery</h2>
+            <p class="gallery-subtitle">Take a virtual tour of New Son Medical Store</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="exterior">
+                    <div class="gallery-image store-front">
+                        <img src="images/store-front.jpg" alt="New Son Medical Store - Front View" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-store"></i>
+                            <h4>Store Front View</h4>
+                            <p>New Son Medical Store</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Store Front</h3>
+                                <p>New Son Medical Store - Pehati Ka Chauraha, Mirzapur</p>
+                                <button class="view-btn" onclick="openLightbox(0)">
+                                    <i class="fas fa-expand"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="exterior">
+                    <div class="gallery-image store-customers">
+                        <img src="images/store-front-customers.jpg" alt="Store with Customers" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-users"></i>
+                            <h4>Customer Service</h4>
+                            <p>Serving Our Community</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Customer Service</h3>
+                                <p>Serving our community with dedication</p>
+                                <button class="view-btn" onclick="openLightbox(1)">
+                                    <i class="fas fa-expand"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="exterior">
+                    <div class="gallery-image store-exterior-2">
+                        <img src="images/store-exterior-2.jpg" alt="Store Exterior View 2" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-building"></i>
+                            <h4>Store Exterior</h4>
+                            <p>Another View</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Store Exterior</h3>
+                                <p>Another view of our medical store</p>
+                                <button class="view-btn" onclick="openLightbox(2)">
+                                    <i class="fas fa-expand"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="exterior">
+                    <div class="gallery-image store-night-view">
+                        <img src="images/store-night-view.jpg" alt="Store Night View" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-moon"></i>
+                            <h4>Night View</h4>
+                            <p>Store at Night</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Store Night View</h3>
+                                <p>Our store illuminated at night</p>
+                                <button class="view-btn" onclick="openLightbox(3)">
+                                    <i class="fas fa-expand"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="signage">
+                    <div class="gallery-image store-signage">
+                        <img src="images/store-signage.jpg" alt="Store Signage in Hindi" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-sign"></i>
+                            <h4>Store Signage</h4>
+                            <p>Hindi Text</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Store Signage</h3>
+                                <p>Clear signage showing all available medicines</p>
+                                <button class="view-btn" onclick="openLightbox(4)">
+                                    <i class="fas fa-expand"></i> View
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="interior">
+                    <div class="gallery-image medicine-shelves">
+                        <img src="images/medicine-shelves.jpg" alt="Medicine Shelves - Complete Stock" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-pills"></i>
+                            <h4>Medicine Shelves</h4>
+                            <p>Complete Stock</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Medicine Shelves</h3>
+                                <p>Complete range of allopathic and ayurvedic medicines</p>
+                                <button class="view-btn" onclick="openLightbox(5)">
+                                    <i class="fas fa-expand"></i> View
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="interior">
+                    <div class="gallery-image store-interior-1">
+                        <img src="images/store-interior-1.jpg" alt="Store Interior View 1" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-clinic-medical"></i>
+                            <h4>Store Interior</h4>
+                            <p>Inside View</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Store Interior</h3>
+                                <p>Inside view of our well-organized medical store</p>
+                                <button class="view-btn" onclick="openLightbox(6)">
+                                    <i class="fas fa-expand"></i> View
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="interior">
+                    <div class="gallery-image store-interior-2">
+                        <img src="images/store-interior-2.jpg" alt="Store Interior View 2" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-clinic-medical"></i>
+                            <h4>Store Interior</h4>
+                            <p>Another Inside View</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Store Interior 2</h3>
+                                <p>Another angle of our store interior</p>
+                                <button class="view-btn" onclick="openLightbox(7)">
+                                    <i class="fas fa-expand"></i> View
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="interior">
+                    <div class="gallery-image medicine-display-1">
+                        <img src="images/medicine-display-1.jpg" alt="Medicine Display 1" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-capsules"></i>
+                            <h4>Medicine Display</h4>
+                            <p>Product Display</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Medicine Display</h3>
+                                <p>Wide variety of medicines on display</p>
+                                <button class="view-btn" onclick="openLightbox(8)">
+                                    <i class="fas fa-expand"></i> View
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="interior">
+                    <div class="gallery-image medicine-display-2">
+                        <img src="images/medicine-display-2.jpg" alt="Medicine Display 2" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="image-placeholder" style="display: none;">
+                            <i class="fas fa-capsules"></i>
+                            <h4>Medicine Display</h4>
+                            <p>More Products</p>
+                        </div>
+                        <div class="gallery-overlay">
+                            <div class="gallery-content">
+                                <h3>Medicine Display 2</h3>
+                                <p>More medicines and health products</p>
+                                <button class="view-btn" onclick="openLightbox(9)">
+                                    <i class="fas fa-expand"></i> View
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery Filter Buttons -->
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">All Photos</button>
+                <button class="filter-btn" data-filter="exterior">Store Front</button>
+                <button class="filter-btn" data-filter="interior">Interior</button>
+                <button class="filter-btn" data-filter="signage">Signage</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+            <div class="lightbox-caption">
+                <h3 id="lightbox-title"></h3>
+                <p id="lightbox-description"></p>
+            </div>
+            <div class="lightbox-nav">
+                <button class="lightbox-prev" onclick="prevImage()">&#10094;</button>
+                <button class="lightbox-next" onclick="nextImage()">&#10095;</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>Pehati Ka Chauraha, Mirzapur<br>Uttar Pradesh, India</p>
+                            <a href="https://maps.app.goo.gl/f13oyjG3StFG7TWcA" target="_blank" class="address-link">
+                                <i class="fas fa-directions"></i> Get Directions
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 7705950290<br>+91 7705950290</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-user"></i>
+                        <div>
+                            <h4>Proprietor</h4>
+                            <p>प्रखर गुप्ता (Prakhar Gupta)</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-whatsapp"></i>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>+91 7705950290</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Working Hours</h4>
+                            <p>Mon - Sat: 8:00 AM - 11:00 PM<br>Sunday: 8:00 AM - 11:00 PM<br><strong>24x7 Emergency Service Available</strong></p>
+                        </div>
+                    </div>
+                    
+                    <!-- Google Maps Location -->
+                    <div class="contact-item map-link-item">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <div>
+                            <h4>Find Us on Map</h4>
+                            <p>Navigate directly to our store</p>
+                            <a href="https://maps.app.goo.gl/f13oyjG3StFG7TWcA" target="_blank" class="map-link-btn">
+                                <i class="fas fa-external-link-alt"></i> Open in Google Maps
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="tel" placeholder="Your Phone" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Maps Section -->
+    <section class="map-section">
+        <div class="container">
+            <h2>Find Us on Map</h2>
+            <p class="map-subtitle">Navigate directly to New Son Medical Store</p>
+            
+            <div class="map-container">
+                <!-- Google Maps Embed -->
+                <div class="map-embed">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3635.123456789!2d82.56789!3d25.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e31fb618ae7c7%3A0x123456789abcdef!2sNew%20Son%20Medical%20Store%2C%20Pehati%20Ka%20Chauraha%2C%20Mirzapur%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1707123456789"
+                        width="100%" 
+                        height="400" 
+                        style="border:0; border-radius: 15px;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    
+                    <!-- Fallback if embed doesn't work -->
+                    <div class="map-fallback" style="display: none;">
+                        <div class="fallback-content">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>View on Google Maps</h3>
+                            <p>Click below to open our location in Google Maps</p>
+                            <a href="https://maps.app.goo.gl/f13oyjG3StFG7TWcA" 
+                               target="_blank" 
+                               class="fallback-btn">
+                                Open in Google Maps
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Map Info -->
+                <div class="map-info">
+                    <div class="map-card">
+                        <div class="map-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="map-details">
+                            <h3>New Son Medical Store</h3>
+                            <p>Pehati Ka Chauraha, Mirzapur<br>Uttar Pradesh, India</p>
+                            <div class="map-buttons">
+                                <a href="https://maps.app.goo.gl/f13oyjG3StFG7TWcA" 
+                                   target="_blank" 
+                                   class="map-btn directions-btn">
+                                    <i class="fas fa-directions"></i>
+                                    Get Directions
+                                </a>
+                                <a href="tel:+917705950290" class="map-btn call-btn">
+                                    <i class="fas fa-phone"></i>
+                                    Call Now
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="location-features">
+                        <div class="feature-item">
+                            <i class="fas fa-car"></i>
+                            <span>Parking Available</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-wheelchair"></i>
+                            <span>Accessible</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Open Till 11 PM</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>24x7 Emergency</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>New Son Medical Store</h3>
+                    <p>Your trusted healthcare partner providing quality medicines and healthcare solutions for humans and animals.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Allopathic Medicines</a></li>
+                        <li><a href="#">Ayurvedic Products</a></li>
+                        <li><a href="#">Patanjali Products</a></li>
+                        <li><a href="#">Veterinary Medicines</a></li>
+                        <li><a href="#">Health Supplements</a></li>
+                        <li><a href="#">Medical Equipment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Emergency Contact</h4>
+                    <p><i class="fas fa-phone"></i> +91 7705950290</p>
+                    <p><i class="fas fa-phone"></i> +91 7905863291</p>
+                    <p><strong>24x7 Emergency Service Available</strong></p>
+                    <p>Pehati Ka Chauraha, Mirzapur</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 New Son Medical Store. All rights reserved. | Licensed Pharmacy</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Modal -->
+    <div id="contactModal" class="contact-modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeContactModal()">&times;</span>
+            <div class="modal-header">
+                <h3>Contact New Son Medical Store</h3>
+                <p>Choose your preferred way to contact us</p>
+            </div>
+            <div class="contact-options">
+                <div class="contact-option whatsapp" onclick="openWhatsApp()">
+                    <div class="option-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div class="option-content">
+                        <h4>WhatsApp</h4>
+                        <p>+91 7705950290</p>
+                        <span class="option-label">Instant messaging</span>
+                    </div>
+                </div>
+                
+                <div class="contact-option phone" onclick="callStore()">
+                    <div class="option-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="option-content">
+                        <h4>Call Now</h4>
+                        <p>+91 7705950290</p>
+                        <span class="option-label">Direct phone call</span>
+                    </div>
+                </div>
+                
+                <div class="contact-option emergency" onclick="callEmergency()">
+                    <div class="option-icon">
+                        <i class="fas fa-ambulance"></i>
+                    </div>
+                    <div class="option-content">
+                        <h4>Emergency</h4>
+                        <p>24x7 Service</p>
+                        <span class="option-label">Urgent medicine needs</span>
+                    </div>
+                </div>
+                
+                <div class="contact-option location" onclick="openInGoogleMaps()">
+                    <div class="option-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <div class="option-content">
+                        <h4>Visit Store</h4>
+                        <p>Pehati Ka Chauraha</p>
+                        <span class="option-label">Get directions</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WhatsApp Floating Button -->
+    <div class="whatsapp-float" onclick="openWhatsApp()">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-text">Chat with us</span>
+    </div>
+
+    <!-- Call Floating Button -->
+    <div class="call-float" onclick="callStore()">
+        <i class="fas fa-phone"></i>
+        <span class="call-text">Call Now</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
